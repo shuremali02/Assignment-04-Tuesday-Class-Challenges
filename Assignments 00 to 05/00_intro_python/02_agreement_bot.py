@@ -1,6 +1,6 @@
 # ## 1️⃣ 02_agreement_bot
 # **Description:**  
-# ## Problem Statement
+
 # Problem Statement
 # Write a program which asks the user what their favorite animal is, and then always responds with "My favorite animal is also ___!" (the blank should be filled in with the user-inputted animal, of course).
 
@@ -10,4 +10,7 @@
 
 # My favorite animal is also cow!  
 
-# 🔗 [[**Colab Link:**](https://colab.research.google.com/drive/16UUX1l6JuRfuXm2tjxYnTJgPFOqU3BEz?usp=sharing)]  
+def main():
+    animal=input("What's your favorite animal? ")
+    print(f"My favorite animal is also {animal}")
+main()
